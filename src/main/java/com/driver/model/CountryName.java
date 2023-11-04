@@ -8,12 +8,9 @@ public enum CountryName {
     JPN("005");
 
     private final String code;
-
     private CountryName(String s) {
         code = s;
     }
-
-    public String toCode() {
-        return this.code;
+    public String toCode() {return this.code;
     }
 }
